@@ -16,7 +16,7 @@ int main(int argc, char * argv []) {
 
     const SDL_version * ver = Mix_Linked_Version();
     printf("Mixer %i.%i.%i\n", ver->major, ver->minor, ver->patch);
-    printf(argv[ 0 ];
+    printf(argv[ 0 ]);
     Mix_Music* music = Mix_LoadMUS(argv[ 0 ]);
 
     if (music == NULL) {
